@@ -1,11 +1,11 @@
 # **IDEA**  
   
-The idea of this project is to use Arduino to build an interactive system of paired LEDs and switches, where LEDs of different colours are activated and shut down with the press of their corresponding switch.  
+The idea of this project is to use Arduino to build an interactive system of paired LEDs and switches, where LEDs of different colours are activated and shut down with the press of their corresponding switch. A simple circuit could be built to achieve the same result without Arduino, but since the switches in this project are momentary (i.e. need continuous compression), the system must be intelligent enough to "memorize" the momentary press of a button.    
   
 # **MATERIALS**
   
 •	LEDs (3)  
-•	Switches (3)  
+•	Momentary switches (3)  
 •	220Ω resistors (3)  
 •	10kΩ resistors (3)  
 •	Jumper wires  
