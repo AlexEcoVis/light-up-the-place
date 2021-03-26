@@ -1,8 +1,8 @@
-**IDEA**  
+# **IDEA**  
   
 The idea of this project is to build a system of paired LEDs and switches, where LEDs of different colours are activated and shut down with the press of their corresponding switch.  
   
-MATERIALS 
+# **MATERIALS**
   
 •	LEDs (3)  
 •	Switches (3)  
@@ -10,12 +10,12 @@ MATERIALS
 •	10kΩ resistors (3)  
 •	Jumper wires  
   
-PROCESS  
+# **PROCESS**  
   
-Board  
+## **Board**  
 The switches are connected to digital pins 2, 4 and 6, set as input pins. These pins are connected to ground with 10kΩ resistors. The LEDs are setup next to each switch and connected to pins 3, 5 and 7 respectively, set as output pins. They are connected to ground with 220Ω resistors.  
    
-Program  
+## **Program**  
 The loop includes the following conditions:  
 •	If green switch is pressed  
 &nbsp;  o	If green LED is on -> switch if off  
