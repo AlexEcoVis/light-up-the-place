@@ -20,7 +20,7 @@ The switches are connected to digital pins 2, 4 and 6, set as input pins. These 
     <img width="33%" src="https://github.com/AlexEcoVis/light-up-the-place/blob/main/board.jpg?raw=true"> 
 </p>
   
-## **Program**  
+## **[Program](https://github.com/AlexEcoVis/light-up-the-place/blob/main/Code.ino)**  
 The [loop](https://github.com/AlexEcoVis/light-up-the-place/blob/main/Code.ino) includes the following conditions:  
 •	**If green switch is pressed**  
 &nbsp;  o	If green LED is on -> switch if off  
