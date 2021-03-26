@@ -13,12 +13,10 @@ The idea of this project is to build a system of paired LEDs and switches, where
 # **PROCESS**  
   
 ## **Board**  
-The switches are connected to digital pins 2, 4 and 6, set as input pins. These pins are connected to ground with 10kΩ resistors. The LEDs are setup next to each switch and connected to pins 3, 5 and 7 respectively, set as output pins. They are connected to ground with 220Ω resistors.  
-   
+The switches are connected to digital pins 2, 4 and 6, set as input pins. These pins are connected to ground with 10kΩ resistors. The LEDs are setup next to each switch and connected to pins 3, 5 and 7 respectively, set as output pins. They are connected to ground with 220Ω resistors.   
 <p align="center" width="100%">
     <img width="33%" src="https://github.com/AlexEcoVis/light-up-the-place/blob/main/board.jpg?raw=true"> 
 </p>
-   
 ## **Program**  
 The loop includes the following conditions:  
 •	If green switch is pressed  
