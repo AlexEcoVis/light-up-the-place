@@ -4,12 +4,12 @@ The idea of this project is to use Arduino to build an interactive system of pai
   
 # **MATERIALS**
   
+•	Arduino UNO board  
 •	LEDs (3)  
 •	Momentary switches (3)  
 •	220Ω resistors (3)  
 •	10kΩ resistors (3)  
 •	Jumper wires  
-•	Arduino UNO board  
   
 # **PROCESS**  
   
