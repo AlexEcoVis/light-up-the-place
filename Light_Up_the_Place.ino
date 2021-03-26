@@ -1,7 +1,7 @@
-
-//This sketch runs a system where three LEDs can be turned ON and OFF with the press of 
+//This sketch runs a program where three LEDs can be turned ON and OFF with the press of 
 //switches. Each LED activates/deactivates with the press of a specific switch. In each run, 
-//Arduino reads the state of the pin (ON or OFF) and keeps it as such, if no switch is pressed.
+//Arduino searches for input activations and activates or deactivates the corresponding output
+//pin. 
 
 // create variables for input pins
 int GreenButton = 2;
