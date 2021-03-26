@@ -1,6 +1,6 @@
 # **IDEA**  
   
-The idea of this project is to build a system of paired LEDs and switches, where LEDs of different colours are activated and shut down with the press of their corresponding switch.  
+The idea of this project is to use Arduino to build an interactive system of paired LEDs and switches, where LEDs of different colours are activated and shut down with the press of their corresponding switch.  
   
 # **MATERIALS**
   
@@ -9,6 +9,7 @@ The idea of this project is to build a system of paired LEDs and switches, where
 •	220Ω resistors (3)  
 •	10kΩ resistors (3)  
 •	Jumper wires  
+•	Arduino UNO board  
   
 # **PROCESS**  
   
