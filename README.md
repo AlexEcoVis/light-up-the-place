@@ -18,7 +18,6 @@ The switches are connected to digital pins 2, 4 and 6, set as input pins. These 
 <p align="center" width="100%">
     <img width="33%" src="https://github.com/AlexEcoVis/light-up-the-place/blob/main/board.jpg?raw=true"> 
 </p>
-![alt text](https://github.com/AlexEcoVis/light-up-the-place/blob/main/board.jpg?raw=true)
    
 ## **Program**  
 The loop includes the following conditions:  
