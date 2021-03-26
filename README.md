@@ -1,4 +1,3 @@
-<pre>
 IDEA  
   
 The idea of this project is to build a system of paired LEDs and switches, where LEDs of different colours are activated and shut down with the press of their corresponding switch.  
@@ -17,7 +16,7 @@ The switches are connected to digital pins 2, 4 and 6, set as input pins. These 
 Program  
 The loop includes the following conditions:  
 •	If green switch is pressed  
-    o	If green LED is on -> switch if off  
+&nbsp;  o	If green LED is on -> switch if off  
     o	If green LED is off -> switch it on  
 •	If yellow switch is pressed  
     o	If yellow LED is on -> switch if off  
@@ -29,4 +28,4 @@ The loop includes the following conditions:
     o	do nothing (will keep all LEDs in their state)  
   
 Following each switch press, a delay of 400ms is added to avoid running the loop again on the same press, which would otherwise cause the result to vary. The delay is added after the LED has been turned ON or OFF.  
-</pre>
+
