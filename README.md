@@ -1,3 +1,4 @@
+<pre>
 IDEA  
   
 The idea of this project is to build a system of paired LEDs and switches, where LEDs of different colours are activated and shut down with the press of their corresponding switch.  
@@ -28,3 +29,4 @@ The loop includes the following conditions:
     o	do nothing (will keep all LEDs in their state)  
   
 Following each switch press, a delay of 400ms is added to avoid running the loop again on the same press, which would otherwise cause the result to vary. The delay is added after the LED has been turned ON or OFF.  
+</pre>
