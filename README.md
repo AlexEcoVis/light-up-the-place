@@ -22,13 +22,13 @@ The switches are connected to digital pins 2, 4 and 6, set as input pins. These 
   
 ## **Program**  
 The loop includes the following conditions:  
-•	If green switch is pressed  
+•	**If green switch is pressed**  
 &nbsp;  o	If green LED is on -> switch if off  
 &nbsp;  o	If green LED is off -> switch it on  
-•	If yellow switch is pressed  
+•	**If yellow switch is pressed**  
 &nbsp;  o	If yellow LED is on -> switch if off  
 &nbsp;  o	If yellow LED is off -> switch it on  
-•	If red switch is pressed  
+•	**If red switch is pressed**  
 &nbsp;  o	If red LED is on -> switch if off  
 &nbsp;  o	If red LED is off -> switch it on  
   
