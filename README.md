@@ -29,5 +29,5 @@ The loop includes the following conditions:
 &nbsp;  o	If red LED is on -> switch if off  
 &nbsp;  o	If red LED is off -> switch it on  
   
-Following each switch press, a delay of 400ms is added to avoid running the loop again on the same press, which would otherwise cause the result to vary. The delay is added after the LED has been turned ON or OFF.  
+Following each switch press, a delay of 0.4 seconds is added to avoid running the loop again on the same press, which would otherwise cause the result to vary. The delay is added after the LED has been turned ON or OFF.  
 
