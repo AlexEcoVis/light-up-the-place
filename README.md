@@ -1,4 +1,4 @@
-IDEA  
+**IDEA**  
   
 The idea of this project is to build a system of paired LEDs and switches, where LEDs of different colours are activated and shut down with the press of their corresponding switch.  
   
