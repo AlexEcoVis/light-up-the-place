@@ -37,14 +37,14 @@ void loop() {
   // if green button is pressed
   if (digitalRead(GreenButton) == HIGH){
     // reverse green LED state
-    digitalWrite(GreenLED, abs(digitalRead(GreenLED)-1));
+    digitalWrite(GreenLED, 1 - digitalRead(GreenLED));
     delay(DELAY); //delay to avoid running loop multiple times per press
   }
   
   // if yellow button is pressed
   else if (digitalRead(YellowButton) == HIGH){
     // reverse yellow LED state
-    digitalWrite(YellowLED, abs(digitalRead(YellowLED)-1));
+    digitalWrite(YellowLED, 1 - digitalRead(YellowLED));
     delay(DELAY); //delay to avoid running loop multiple times per press
   }
   
@@ -52,7 +52,7 @@ void loop() {
   // if red button is pressed
   else if (digitalRead(RedButton) == HIGH){
     // reverse red LED state
-    digitalWrite(RedLED, abs(digitalRead(RedLED)-1));
+    digitalWrite(RedLED, 1 - digitalRead(RedLED));
     delay(DELAY); //delay to avoid running loop multiple times per press
   }
   
