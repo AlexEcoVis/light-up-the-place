@@ -35,5 +35,5 @@ The loop includes the following conditions:
 Following each switch press, a delay of 0.4 seconds is added to avoid running the loop again on the same press, which would otherwise cause the result to vary. The delay is added after the LED has been turned ON or OFF.  
   
 <p align="center" width="100%">
-    <img width="33%" src="https://github.com/AlexEcoVis/light-up-the-place/blob/main/Display.gif"> 
+    <img width="100%" src="https://github.com/AlexEcoVis/light-up-the-place/blob/main/Display.gif"> 
 </p>
