@@ -25,9 +25,9 @@ The loop includes the following conditions:
 •	**If green switch is pressed**  
 &nbsp;  -> reverse green LED state   
 •	**else If yellow switch is pressed**  
-&nbsp;  -> reverse yellow LED state 
-•	**else If red switch is pressed**  
-&nbsp;  -> reverse red LED state 
+&nbsp;  -> reverse yellow LED state   
+•	**else If red switch is pressed**    
+&nbsp;  -> reverse red LED state  
   
 Following each switch press, a delay of 0.4 seconds is added to avoid running the loop again on the same press, which would otherwise cause the result to vary. The delay is added after the LED has been turned ON or OFF.  
   
