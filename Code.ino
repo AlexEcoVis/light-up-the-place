@@ -1,7 +1,8 @@
+
 //This sketch runs a program where three LEDs can be turned ON and OFF with the press of 
 //switches. Each LED activates/deactivates with the press of a specific switch. In each run, 
 //Arduino searches for input activations and activates or deactivates the corresponding output
-//pin. 
+//pin.
 
 // create variables for input pins
 int GreenButton = 2;
@@ -35,38 +36,23 @@ void loop() {
   
   // if green button is pressed
   if (digitalRead(GreenButton) == HIGH){
-    if (digitalRead(GreenLED) == HIGH){ // if green led is on
-      digitalWrite(GreenLED, LOW); // shut green led off
-    }
-    
-    else if (digitalRead(GreenLED) == LOW){ // if green led is off
-      digitalWrite(GreenLED, HIGH);
-    }
+    // reverse green LED state
+    digitalWrite(GreenLED, abs(digitalRead(GreenLED)-1));
     delay(DELAY); //delay to avoid running loop multiple times per press
   }
   
   // if yellow button is pressed
   else if (digitalRead(YellowButton) == HIGH){
-    if (digitalRead(YellowLED) == HIGH){ // if yellow led is on
-      digitalWrite(YellowLED, LOW); // shut yellow led off
-    }
-    
-    else if (digitalRead(YellowLED) == LOW){ // if yellow led is off
-      digitalWrite(YellowLED, HIGH); 
-    }
+    // reverse yellow LED state
+    digitalWrite(YellowLED, abs(digitalRead(YellowLED)-1));
     delay(DELAY); //delay to avoid running loop multiple times per press
   }
   
   
   // if red button is pressed
   else if (digitalRead(RedButton) == HIGH){
-    if (digitalRead(RedLED) == HIGH){ // if red led is on
-      digitalWrite(RedLED, LOW); // shut red led off
-    }
-    
-    else if (digitalRead(RedLED) == LOW){ // if red led is off
-      digitalWrite(RedLED, HIGH);
-    }
+    // reverse red LED state
+    digitalWrite(RedLED, abs(digitalRead(RedLED)-1));
     delay(DELAY); //delay to avoid running loop multiple times per press
   }
   
