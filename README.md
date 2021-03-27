@@ -4,7 +4,7 @@ The idea of this project is to use Arduino to build an interactive system of pai
   
 # **MATERIALS**
   
-•	Arduino UNO board  
+•	Arduino UNO & Breadboard  
 •	LEDs (x3)  
 •	Momentary switches (x3)  
 •	220Ω resistors (x3)  
