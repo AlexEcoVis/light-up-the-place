@@ -20,7 +20,7 @@ The switches are connected to digital pins 2, 4 and 6, set as input pins. These 
     <img width="50%" src="https://github.com/AlexEcoVis/light-up-the-place/blob/main/board.jpg?raw=true"> 
 </p>
   
-## **[Code](https://github.com/AlexEcoVis/light-up-the-place/blob/main/Code.ino)**  
+## Program (**[Code](https://github.com/AlexEcoVis/light-up-the-place/blob/main/Code.ino)**)  
 The loop includes the following conditions:  
 •	**if green switch is pressed**  
 &nbsp;  -> reverse green LED state   
